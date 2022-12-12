@@ -71,7 +71,6 @@ body {
 
 .banner_text {
     font-family: 'Hahmlet-Regular';
-    font-weight: 700;
     font-size: 30px;
     line-height: 40px;
     text-align: center;
@@ -229,7 +228,6 @@ body {
 
 #popular h1,
 #theme h1 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 46px;
     text-align: center;
@@ -462,7 +460,6 @@ body {
 }
 
 #review h1 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 46px;
     margin-bottom: 100px;
@@ -558,7 +555,6 @@ body {
 }
 
 #guide h1 {
-    font-weight: 700;
     font-size: 36px;
     line-height: 46px;
     margin-bottom: 100px;
