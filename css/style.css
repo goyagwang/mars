@@ -473,6 +473,7 @@ body {
 
 .swiper-slide {
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: 60px 30px 30px 30px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -532,7 +533,7 @@ body {
 
 .nickname {
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     margin: 15px 0;
     padding: 3px 20px;
     letter-spacing: 0;
@@ -544,7 +545,7 @@ body {
 
 .date {
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 300;
     letter-spacing: 0;
 }
 
