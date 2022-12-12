@@ -712,14 +712,19 @@ body {
         width: 97%;
     }
 
+    .sub_title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
     #popular h1,
     #theme h1,
     #plan h1,
     #review h1,
     #guide h1 {
         text-align: center;
-        font-size: 26px;
-        line-height: 36px;
+        font-size: 28px;
+        line-height: 38px;
     }
 
     .banner_text {
@@ -741,10 +746,6 @@ body {
 
     .theme_content {
         justify-content: center;
-    }
-
-    #plan h1 {
-        text-align: center;
     }
 
     #theme dl {
