@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARS DESERT TOUR</title>
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="./js/hamburger.js"></script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- web font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="header_box">
+        <div id="top">
+            <ul>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">JOIN</a></li>
+                <li><a href="#">CS CENTER</a></li>
+            </ul>
+        </div>
+        <div id="header">
+            <div class="header_inner">
+                <ul>
+                    <li><a href="#popular">인기 여행</a></li>
+                    <li><a href="#theme">테마 여행</a></li>
+                    <li><a href="#plan">인원별 추천 여행</a></li>
+                    <li><a href="#review">여행 후기</a></li>
+                    <li><a href="#guide">여행자 지원 센터</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--여기부터 필요구조 시작-->
+
+        <div class="slide-open" id="slide-open">
+            <span class="burgur" id="burgur">
+                <span class="top-line"></span>
+                <span class="bot-line"></span>
+            </span>
+        </div>
+        <!--slide-open-->
+        <div class="slide" id="slide">
+            <ul>
+                <li><a href="#popular">인기 여행</a></li>
+                <li><a href="#theme">테마 여행</a></li>
+                <li><a href="#plan">인원별 추천 여행</a></li>
+                <li><a href="#review">여행 후기</a></li>
+                <li><a href="#guide">여행자 지원 센터</a></li>
+            </ul>
+        </div>
+        <!--slide-->
+        <!--필요구조 끝-->
+        <h1 class="logo"><a href="#"><img src="./images/logo.png" alt="로고"></a></h1>
+        <h1 class="banner_text">화성을 닮은 미지의 사막<br>
+            마스 사막 투어와 함께 하는<br>
+            특별한 모험</h1>
+    </div>
+
+    <div id="popular">
+        <h2 class="sub_title">popular desert</h2>
+        <h1>마스 사막 투어와 함께<br class="mobile_enter"> 다이나믹한 추억 만들기</h1>
+        <div class="popular_content">
+            <dl>
+                <a href="#">
+                    <dt><img src="./images/popular1.jpg" alt="인기 여행1"></dt>
+                    <dd>
+                        <h3>볼리비아 우유니 소금 사막</h3>
+                        <p>최소 100억 톤의 소금<br>
+                            소금 사막에 반사되는 수억개의 별<br>
+                            상상을 초월하는 아름다움
+                        </p>
+                        <h2 class="price">￦ 594,900</h2>
+                        <div class="heart"><a href="#"></a></div>
+                    </dd>
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt><img src="./images/popular2.jpg" alt="인기 여행2"></dt>
+                    <dd>
+                        <h3>호주 울룰루 사막</h3>
+                        <p>호주의 붉은 심장 울룰루 사막<br>
+                            일출과 일몰에 오렌지색, 보라색으로<br>
+                            바뀌는 장관 경험하기!<br>
+                        </p>
+                        <h2 class="price">￦ 779,900</h2>
+                        <div class="heart"><a href="#"></a></div>
+                    </dd>
+
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt><img src="./images/popular3.jpg" alt="인기 여행3"></dt>
+                    <dd>
+                        <h3>몽골 고비 사막</h3>
+                        <p>
+                            최대 공룡화석 발굴지인<br>
+                            불타는 절벽 비양작과<br>
+                            별이 쏟아지는 은하수를 내 눈으로
+                        </p>
+                        <h2 class="price">￦ 594,900</h2>
+                        <div class="heart"><a href="#"></a></div>
+                    </dd>
+
+                </a>
+            </dl>
+            <dl>
+                <a href="#">
+                    <dt><img src="./images/popular4.jpg" alt="인기 여행4"></dt>
+                    <dd>
+                        <h3>두바이 사막</h3>
+                        <p>열기구 탑승, 낙타 트래킹, 지프 사파리<br>
+                            모험심을 자극하는 원시적인 신비를<br>
+                            간직한 사막<br>
+                        </p>
+                        <h2 class="price">￦ 825,900</h2>
+                        <div class="heart"><a href="#"></a></div>
+                    </dd>
+                </a>
+            </dl>
+        </div>
+        <a href="#" class="btn">더 많은 여행지 보러 가기</a>
+    </div>
+
+    <div class="theme_bg">
+        <div id="theme">
+            <h2 class="sub_title">theme desert tour</h2>
+            <h1>테마 사막 투어</h1>
+            <div class="theme_content">
+                <dl>
+                    <dt><img src="./images/theme1.jpg" alt="테마 여행1"></dt>
+                    <dd>
+                        <h3>로얄 사파리 투어</h3>
+                        <p class="hidden_text">아랍식 식사와 다과
+                            낙타 체험, 헤나 체험
+                            불쇼 등 열정적인
+                            공연 관람</p>
+                        <h2 class="price2">￦ 121,500~</h2>
+                        <a href="#" class="btn2">예약하기</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="./images/theme2.jpg" alt="테마 여행2"></dt>
+                    <dd>
+                        <h3>선라이즈 모닝<br>사막 투어</h3>
+                        <p class="hidden_text">
+                            사막 보존 보호 구역에서
+                            듄 드라이브와
+                            스릴 넘치는 샌드보딩
+                        </p>
+                        <h2 class="price2">￦ 94,500~</h2>
+                        <a href="#" class="btn2">예약하기</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="./images/theme3.jpg" alt="테마 여행3"></dt>
+                    <dd>
+                        <h3>사막 유적지 투어</h3>
+                        <p class="hidden_text">
+                            7대 불가사의 중 하나인
+                            요르단의 페트라
+                            무덤과 사원,
+                            종교 유적 등
+                            경이로운 정교함
+                        </p>
+                        <h2 class="price2">￦ 251,500~</h2>
+                        <a href="#" class="btn2">예약하기</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="./images/theme4.jpg" alt="테마 여행4"></dt>
+                    <dd>
+                        <h3>카멜 라이딩 투어</h3>
+                        <p class="hidden_text">
+                            ‘사막의 배’
+                            단봉 낙타와 함께
+                            사막의 야생 식물과
+                            동물 만나기
+                        </p>
+                        <h2 class="price2">￦ 71,200~</h2>
+                        <a href="#" class="btn2">예약하기</a>
+                    </dd>
+                </dl>
+            </div>
+            <a href="#" class="btn">더 많은 테마 보러 가기</a>
+        </div>
+    </div>
+
+    <div id="plan">
+        <div class="plan">
+            <h1>마스 사막 투어의<br class="mobile_enter"> 특별한 여행 일정</h1>
+            <div class="plan_inner">
+
+                <div class="plan_content">
+                    <ul class="top">
+                        <li><a href="#">나홀로 여행</a></li>
+                        <li><a href="#">친구와<br class="mobile_enter"> 우정여행</a></li>
+                    </ul>
+                    <ul class="bottom">
+                        <li><a href="#">커플 또는<br class="mobile_enter"> 신혼여행</a></li>
+                        <li><a href="#">아이들과<br class="mobile_enter"> 가족여행</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="review">
+        <h2 class="sub_title">mars desert tour review</h2>
+        <h1>마스 사막 투어 이용객의<br class="mobile_enter"> 생생한 여행 후기</h1>
+        <div class="review_content">
+
+            <div id="arrow_relativ">
+                <!-- Swiper -->
+                <div class="swiper review_swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review1.png" alt="리뷰 이미지1">
+                                <p class="review_text">사막에서 하는 트래킹, 가히 환상적입니다.</p>
+                                <p class="nickname">chickenbone 님</p>
+                                <p class="date">2022.03.25</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review2.png" alt="리뷰 이미지2">
+                                <p class="review_text">일몰의 아름다움은 말로 표현할 수 없어요.</p>
+                                <p class="nickname">tomatostew 님</p>
+                                <p class="date">2022.04.21</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review3.png" alt="리뷰 이미지3">
+                                <p class="review_text">전통 체험, 그야말로 미지의 세계</p>
+                                <p class="nickname">cactus 님</p>
+                                <p class="date">2022.04.28</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review4.png" alt="리뷰 이미지4">
+                                <p class="review_text">육감으로 느낀 사막</p>
+                                <p class="nickname">schweinshaxse 님</p>
+                                <p class="date">2022.05.03</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review5.png" alt="리뷰 이미지5">
+                                <p class="review_text">자유 그 자체였습니다.</p>
+                                <p class="nickname">bluecheck 님</p>
+                                <p class="date">2022.06.27</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review6.png" alt="리뷰 이미지6">
+                                <p class="review_text">샌드보딩은 절대 피하지 마세요!</p>
+                                <p class="nickname">sk8terboi 님</p>
+                                <p class="date">2022.08.13</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review7.png" alt="리뷰 이미지7">
+                                <p class="review_text">낙타와 거니는 사막은 낭만적이에요.</p>
+                                <p class="nickname">sandygal 님</p>
+                                <p class="date">2022.10.15</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <img src="./images/review8.png" alt="리뷰 이미지8">
+                                <p class="review_text">색다르고 흥미로운 사막 문화</p>
+                                <p class="nickname">alwayssunny 님</p>
+                                <p class="date">2022.11.25</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next review_arrow_next"></div>
+                <div class="swiper-button-prev review_arrow_prev"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="guide">
+        <h2 class="sub_title">professional guide</h2>
+        <h1>믿음직한 전문 인솔자와 함께하는<br class="mobile_enter"> 미지의 사막 투어</h1>
+        <div class="guide_content">
+            <ul>
+                <li>
+                    <img src="./images/guide1.jpg" alt="가이드1" class="img">
+                    <div class="guide_text">
+                        <h3>벨라 가이드</h3>
+                        <p>유쾌함으로 이끌어드려요.<br>
+                            여행자의 기분에 따라 계획은 언제든 변경 가능!<br>
+                            사막이 너무 좋아서 사막 전문 가이드가 되었어요.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="./images/guide2.jpg" alt="가이드2" class="img">
+                    <div class="guide_text">
+                        <h3>예주 가이드</h3>
+                        <p>사막에 대한 모든 것을 알려드릴게요.<br>
+                            사막 국가의 문화를 공부하면서 함께 여행해 볼까요?</p>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="./images/guide3.jpg" alt="가이드3" class="img">
+                    <div class="guide_text">
+                        <h3>한솔 가이드</h3>
+                        <p>사막의 경치, 자연의 신비로움과<br> 하나가 되어 즐기는 사막 액티비티!<br>
+                            모래알 한알 한알이 온몸으로 느껴질 때 너무나도 짜릿해요.</p>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="./images/guide4.jpg" alt="가이드4" class="img">
+                    <div class="guide_text">
+                        <h3>리사 가이드</h3>
+                        <p>끝을 알 수 없는 사막의 매력이 알고 싶나요?<br>
+                            저도 빠져나오려면 한참 멀었답니다.<br>
+                            행복한 여정을 함께 하고 싶어요.<br>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="btn">더 많은 가이드 만나기</a>
+    </div>
+
+    <div id="footer">
+        <div class="footer_inner">
+            <ul class="f1">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+            </ul>
+            <p class="f2">
+                대표 김마스 | 051-123-4567<br>
+                상호명 마스 사막 투어<br>
+                사업자등록번호 202-21-205<br>
+                관광사업번호 제2022-001205호<br>
+                보증보험 제100-000-202208171205호<br>
+                기획여행보증 제100-000-202208171205호<br>
+                통신판매신고 제2022-부산금정-01205호
+            </p>
+            <p>
+                예약 메일 marsdeserttour@marsdeserttour.com<br>
+                월-금 09:00 - 18:00 / 주말, 공휴일 휴무<br>
+                부산광역시 영도구 동삼동 1054
+            </p>
+            <ul class="f3">
+                <li><a href="#"><img src="./images/kakaotalk.png" alt="카카오톡"></a></li>
+                <li><a href="#"><img src="./images/instagram.png" alt="인스타그램"></a></li>
+                <li><a href="#"><img src="./images/twitter.png" alt="트위터"></a></li>
+                <li><a href="#"><img src="./images/youtube.png" alt="유튜브"></a></li>
+            </ul>
+        </div>
+    </div>
+    <a href="#top" class="top_btn"><img src="./images/top_btn.png" alt="위로 가기"></a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".review_swiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".review_arrow_next",
+                prevEl: ".review_arrow_prev",
+            },
+            autoplay: {
+                delay: 7000,
+                /*이미지가 자동으로 넘어가는 시간설정. 1000 = 1초*/
+                disableOnInteraction: false,
+            },
+            loop: true,
+            /*가장 작게 설정한 breakpoint크기 이하일때 적용됨*/
+            slidesPerView: 1,
+            spaceBetween: 10,
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },//640 ~ 1099 사이일때 보여지는 모습
+                1100: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },//1100~1299 사이일때 보여지는 모습
+                1300: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },//1300이상일때 보여지는 모습
+            },
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
