@@ -77,11 +77,12 @@ body {
 
 .banner_text {
     font-family: 'Hahmlet-Regular';
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 36px;
+    line-height: 46px;
     text-align: center;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0;
 }
 
 /*top*/
@@ -223,6 +224,146 @@ body {
 
 /*필요스타일끝*/
 
+
+/*circle*/
+#circle {
+    margin: 0 auto;
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.circle_title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'visual establishment';
+    text-align: center;
+    font-size: 50px;
+    line-height: 65px;
+    color: #7e8459;
+}
+
+.circle_title span {
+    color: #e36b3f;
+}
+
+.circle_line {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 500px;
+    border-bottom-left-radius: 1500px;
+    border-bottom-right-radius: 1500px;
+    border: 3px dashed #e36b3f;
+    z-index: -1;
+}
+
+.circle_con1 {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/circle1.png);
+    background-size: cover;
+    animation: main_con-change 5s ease-in-out infinite;
+}
+
+.circle_con2 {
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    background-image: url(../images/circle2.png);
+    background-size: cover;
+    animation: con-change 5s ease-in-out infinite;
+}
+
+.circle_con3 {
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/circle3.png);
+    background-size: cover;
+    animation: con-change2 5s ease-in-out infinite;
+}
+
+@keyframes main_con-change {
+    0% {
+        background-image: url(../images/circle1.png);
+    }
+
+    42.5% {
+        background-image: url(../images/circle1.png);
+    }
+
+    50% {
+        background-image: url(../images/circle3.png);
+    }
+
+    92.5% {
+        background-image: url(../images/circle3.png);
+    }
+
+    100% {
+        background-image: url(../images/circle1.png);
+    }
+}
+
+@keyframes con-change {
+    0% {
+        background-image: url(../images/circle2.png);
+    }
+
+    42.5% {
+        background-image: url(../images/circle2.png);
+    }
+
+    50% {
+        background-image: url(../images/circle1.png);
+    }
+
+    92.5% {
+        background-image: url(../images/circle1.png);
+    }
+
+    100% {
+        background-image: url(../images/circle2.png);
+    }
+}
+
+@keyframes con-change2 {
+    0% {
+        background-image: url(../images/circle3.png);
+    }
+
+    42.5% {
+        background-image: url(../images/circle3.png);
+    }
+
+    50% {
+        background-image: url(../images/circle2.png);
+    }
+
+    92.5% {
+        background-image: url(../images/circle2.png);
+    }
+
+    100% {
+        background-image: url(../images/circle3.png);
+    }
+}
+
+
 /*popular*/
 #popular {
     max-width: 1320px;
@@ -331,7 +472,7 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #theme dl {
@@ -414,7 +555,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 50px;
     background: url(../images/plan_bg2.jpg) no-repeat 50% 50%;
 }
 
@@ -466,7 +607,7 @@ body {
 #review h1 {
     font-size: 36px;
     line-height: 46px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-family: 'Hahmlet-Regular';
     letter-spacing: 0;
     color: #563028;
@@ -555,13 +696,13 @@ body {
     max-width: 1320px;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 
 #guide h1 {
     font-size: 36px;
     line-height: 46px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-family: 'Hahmlet-Regular';
     color: #563028;
 }
@@ -731,6 +872,7 @@ body {
 
     .banner_text {
         font-size: 26px;
+        line-height: 36px;
     }
 
     .popular_content {
@@ -875,6 +1017,10 @@ body {
     #slide-open {
         display: block;
     }
+
+    .logo {
+        padding: 130px 0 70px;
+    }
 }
 
 @media (max-width:1321px) {
@@ -886,6 +1032,10 @@ body {
 
     .footer_inner {
         width: 90%;
+    }
+
+    #circle {
+        display: none;
     }
 
 }
