@@ -36,12 +36,17 @@ img {
     vertical-align: middle;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 16px;
     line-height: 26px;
     color: #333;
     letter-spacing: -1px;
+    overflow-x: hidden;
 }
 
 .sub_title {
