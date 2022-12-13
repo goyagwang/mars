@@ -729,6 +729,7 @@ body {
 }
 
 .guide_text {
+    width: 70%;
     padding-left: 20px;
 }
 
@@ -981,6 +982,10 @@ body {
     .top_btn {
         right: 15px;
         bottom: 15px;
+    }
+
+    .guide_text {
+        width: 100%;
     }
 }
 
