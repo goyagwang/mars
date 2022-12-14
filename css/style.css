@@ -206,7 +206,7 @@ body {
     -ms-transition: right .3s;
     -o-transition: right .3s;
     transition: right .3s;
-    background-color: #f6c183;
+    background-color: rgba(246, 193, 131, 0.9);
     z-index: 98;
     text-align: center;
     border-left: 1px solid #7e8459;
