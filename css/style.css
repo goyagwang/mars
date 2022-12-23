@@ -793,6 +793,28 @@ body {
 }
 
 /*tablet*/
+
+@media (max-width:1321px) {
+
+    .review_arrow_next,
+    .review_arrow_prev {
+        display: none;
+    }
+
+    .footer_inner {
+        width: 90%;
+    }
+
+    #circle {
+        display: none;
+    }
+
+    .popular_content {
+        padding: 0 2%;
+    }
+
+}
+
 @media (min-width:600px) and (max-width:1199px) {
     #top ul {
         width: 97%;
@@ -843,6 +865,10 @@ body {
 
     #guide ul:nth-child(3) {
         padding-bottom: 5%;
+    }
+
+    .popular_content {
+        padding: 0;
     }
 }
 
@@ -1031,21 +1057,4 @@ body {
     .logo {
         padding: 130px 0 70px;
     }
-}
-
-@media (max-width:1321px) {
-
-    .review_arrow_next,
-    .review_arrow_prev {
-        display: none;
-    }
-
-    .footer_inner {
-        width: 90%;
-    }
-
-    #circle {
-        display: none;
-    }
-
 }
